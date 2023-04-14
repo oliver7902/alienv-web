@@ -4046,7 +4046,7 @@ h1 .small-border {
 
 h1.big,
 .h1_big {
-    font-size: 24px;
+    font-size: 16px;
     margin: 0;
     line-height: 70px;
     text-transform: uppercase;
@@ -11795,7 +11795,7 @@ list-style: none;
 .list_location li{
     display: inline-block;
     margin-right: 30px;
-    font-size: 14px;
+    font-size: 18px;
     color: #202020;
     padding-left: 10px;
 }
@@ -11807,7 +11807,7 @@ list-style: none;
 .list_location li span{
     font-family: var(--title-font);
     color: #202020;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     display: block;
 }
@@ -18162,7 +18162,7 @@ img {
   font-size: 1.0em;
   font-weight: 400;
   line-height: 120%;
-  margin: 0px 0 20px;
+  margin: 0px 0 20px -20px;
   color: #ffffff;
   font-family: 'Ubuntu', 'Noto Sans KR', sans-serif;
 }

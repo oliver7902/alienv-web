@@ -1,3 +1,4 @@
+screen and (max-width: 767px)
 @media (min-width: 1600px) {
     .main-content {
         background-size: contain;
@@ -276,7 +277,7 @@
     }
 
     .phase-list>li:nth-child(1) .phase-art-img {
-        width: 95%;
+        width: 100%;
         bottom: -30px;
     }
 
@@ -602,8 +603,10 @@
     }
 
     .phase-list>li:nth-child(2) .phase-img-box .phase-art-img {
-        bottom: -34px;
-        right: 70px;
+        bottom: 25px;
+        right: 10px;
+        width: 100%;
+        height: 75%;
     }
 
     .phase-list>li:nth-child(3) .phase-img-box .phase-art-img {
@@ -1142,7 +1145,7 @@
     }
 
     .phase-img-box {
-        margin: 0 12px;
+        margin: 0 0px;
     }
 
     .particle-wrap {
