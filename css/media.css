@@ -1593,7 +1593,10 @@ screen and (max-width: 767px)
     .post-comments h4 {
         padding: 40px 0;
     }
-
+    .post-comments h5 {
+    font-size: 1.25rem;
+        padding: 0px 20px 0 20px;
+    }
     /*contact section*/
     .contact-section p {
         margin-bottom: 36px;
