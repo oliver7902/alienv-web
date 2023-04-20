@@ -615,8 +615,8 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   .particle-wrap img:last-child {
     width: 48%;
     height: 100%;
-        bottom: -177px;
-        right: -204px;
+        bottom: -290px;
+        right: -275px;
   }
 
   /* team section*/
@@ -1144,7 +1144,7 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   }
 
   .particle-wrap img:first-child {
-    /* left: 35%; */
+    left: 25px;
     width: 70%;
     height: 100%;
   }
