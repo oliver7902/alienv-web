@@ -1129,7 +1129,7 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   }
 
   .phase-img-box {
-    margin: 0 0px;
+    margin: 0 -25px;
   }
 
   .particle-wrap {
