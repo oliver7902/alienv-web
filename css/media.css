@@ -615,8 +615,8 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   .particle-wrap img:last-child {
     width: 48%;
     height: 100%;
-        bottom: -290px;
-        right: -275px;
+        bottom: -210px;
+        right: -240px;
   }
 
   /* team section*/
@@ -899,6 +899,13 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
     line-height: 40px;
   }
 
+  .phase-art-img {
+      position: relative;
+      right: 0px;
+      bottom: 0px;
+      width: 115%;
+  }
+
   .section-subtitle:after {
     width: 90px;
     right: 30%;
@@ -1131,7 +1138,9 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   .phase-img-box {
     margin: 0 -25px;
   }
-
+  .phase-img-box10 {
+    width:80%;
+  }
   .particle-wrap {
     left: -30px;
     top: 43px;
@@ -1144,7 +1153,8 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   }
 
   .particle-wrap img:first-child {
-    left: 25px;
+    left: 47px;
+    top: 20px;
     width: 70%;
     height: 100%;
   }

@@ -18350,8 +18350,8 @@ img {
 
 
 .phase-art-img {
-  position: absolute;
-  right: 0;
+  position: relative;
+  right: 0px;
   bottom: 0px;
 }
 
