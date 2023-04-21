@@ -7971,17 +7971,34 @@ i.font60 {
     font-weight: 700;
     font-family: "Chakra Petch", sans-serif;
     color: #FF56C9;
-    padding: 0 0 40px 40px
+    padding: 0 0 0px 40px
 }
+.d_timeline-text3 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+    color: #FF56C9;
+    padding: 0 0 75px 50px
+}
+
 .d_timeline-text2 {
     margin: 0;
     font-size: 1.2em;
     font-weight: 700;
     font-family: "Chakra Petch", sans-serif;
     color: #00f1f5;
-    padding: 0 0 40px 40px
+    padding: 0 0 0px 40px
 }
 
+.d_timeline-text4 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: "Chakra Petch", sans-serif;
+    color: #00f1f5;
+    padding: 0 0 75px 50px
+}
 
 .d_timeline-text .d_title span {
     display: inline-block;
@@ -11722,17 +11739,27 @@ body.dark-scheme::-webkit-scrollbar-thumb,.dark-scheme #de_modal::-webkit-scroll
 .f1{
  font-size: 22px;
  font-weight: 700;
+ letter-spacing: 2px;
  color: #00F1F5;
 }
 
 .f2{
  font-size: 22px;
  font-weight: 700;
+ letter-spacing: 2px;
  color: #FF56C9;
 }
 .f3{
  font-size: 22px;
  font-weight: 700;
+ letter-spacing: 2px;
+ color: #ffffff;
+}
+
+.f4{
+ font-size: 22px;
+ font-weight: 700;
+ letter-spacing: 2px;
  color: #ffffff;
 }
 
@@ -11845,8 +11872,8 @@ list-style: none;
     display: inline-block;
     font-family: "Chakra Petch", sans-serif;
     font-weight: bold;
-    word-spacing:2px;
-    letter-spacing : 1px;
+    word-spacing:4px;
+    letter-spacing: 3px;
     margin-right: 26px;
     font-size: 22px;
     color: #ffffff;
@@ -18244,20 +18271,22 @@ img {
 }
 
 .phase-content h6 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 160%;
-  letter-spacing : 1px;
-  margin: 0px 0 0px 0px;
+  letter-spacing : 2px;
+  margin: 0px 0px 0px -24px;
   text-shadow: 4px 4px 4px rgba(0,0,0,1.0) ;
   color: #ffffff;
     font-family: 'Chakra Petch', 'Noto Sans KR', sans-serif;
 }
 
 .phase .phase-content h7 {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 135%;
+    margin: 10px 0px 0px 0px;
+    letter-spacing : 2px;
   color: #ffffff;
   font-family: 'Chakra Petch', 'Noto Sans KR', sans-serif;
 }
@@ -18295,7 +18324,20 @@ img {
 #s1 {
   font-size: 1.8em;
   font-weight: 800;
-  line-height: 120%;
+  line-height: 140%;
+   margin: 0px 0px 25px -20px;
+   display: inline-block;
+   background: linear-gradient(to right, #f50088, #ffac56, #ff0000);
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+  font-family: 'Ubuntu', 'Noto Sans KR', sans-serif;
+}
+
+#s3 {
+  font-size: 1.8em;
+  font-weight: 800;
+  line-height: 140%;
    margin: 0px 0px 25px -20px;
    display: inline-block;
    background: linear-gradient(to right, #00F1F5, #FF56C9, #ff0000);
@@ -18309,7 +18351,7 @@ img {
   font-size: 2.8em;
   font-weight: 700;
   line-height: 120%;
-   margin: 15px 0px 50px -0px;
+   margin: 15px 0px 20px -0px;
    color: #ffffff;
    display: inline-block;
   font-family: 'Chakra Petch', sans-serif;
@@ -18357,10 +18399,10 @@ img {
 
 .particle-wrap {
   position: absolute;
-  width: 140px;
-  height: 140px;
-  top: 0px;
-  left: 410px;
+  width: 54px;
+  height: 182px;
+  top: 37px;
+  left: 385px;
 }
 
 .particle-wrap img {
@@ -18383,6 +18425,38 @@ img {
 }
 
 .particle-wrap img:last-child {
+  bottom: -215px;
+  right: -292px;
+}
+
+.particle-wrap2 {
+  position: absolute;
+  width: 110px;
+  height: 140px;
+  top: 0px;
+  left: 0px;
+}
+
+.particle-wrap2 img {
+  position: absolute;
+  animation-delay: 1s;
+}
+
+.particle-wrap2 img:first-child {
+  animation-delay: 0.7s;
+}
+
+.particle-wrap2 .img-small {
+  width: 32px;
+  height: 32px;
+}
+
+.particle-wrap2 img:first-child {
+  top: 0;
+  left: 0;
+}
+
+.particle-wrap2 img:last-child {
   bottom: -215px;
   right: -292px;
 }
@@ -18415,6 +18489,15 @@ img {
 
 .phase-list>li:nth-child(2) .phase-img-box .particle-wrap,
 .phase-list>li:nth-child(3) .phase-img-box .particle-wrap {
+  top: 30px;
+  right: 350px;
+  left: auto;
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.phase-list>li:nth-child(2) .phase-img-box .particle-wrap2,
+.phase-list>li:nth-child(3) .phase-img-box .particle-wrap2 {
   top: 30px;
   right: 350px;
   left: auto;
@@ -18461,7 +18544,7 @@ img {
   animation: moveRighttoLeft 15s ease-in-out infinite;
   position: relative;
   display: inline-flex;
-  gap: 300px;
+  gap: 110px;
 }
 
 .collection-list.reverse {
