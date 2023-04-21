@@ -615,8 +615,8 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   .particle-wrap img:last-child {
     width: 190%;
     height: 100%;
-        bottom: -210px;
-        right: -373px;
+        bottom: -175px;
+        right: -350px;
   }
 
     .particle-wrap2 img:last-child {
@@ -1160,9 +1160,9 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
   }
 
   .particle-wrap img:first-child {
-    left: 80px;
+    left: 44px;
     top: 20px;
-    width: 190%;
+    width: 230%;
     height: 100%;
   }
 
@@ -1178,9 +1178,9 @@ screen and (max-width: 767px) @media (min-width: 1600px) {
     }
 
     .particle-wrap2 img:first-child {
-      left: 51px;
+      left: 16px;
       top: -35px;
-      width: 70%;
+      width: 104%;
       height: 100%;
     }
 

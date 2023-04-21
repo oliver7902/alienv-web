@@ -18425,8 +18425,8 @@ img {
 }
 
 .particle-wrap img:last-child {
-  bottom: -215px;
-  right: -292px;
+  bottom: -303px;
+  right: -357px;
 }
 
 .particle-wrap2 {
@@ -18452,13 +18452,13 @@ img {
 }
 
 .particle-wrap2 img:first-child {
-  top: 0;
+  top: -78;
   left: 0;
 }
 
 .particle-wrap2 img:last-child {
-  bottom: -215px;
-  right: -292px;
+  bottom: -299px;
+  right: -303px;
 }
 
 .phase-reverse .row {
